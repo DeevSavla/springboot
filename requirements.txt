@@ -1,0 +1,21 @@
+1. user - login / signup
+2. search trains based on source, destination
+3. show available seats 
+4. book seat
+5. ticket fetch
+
+LLD
+
+Entities 
+
+1. User - uuid, name, age, gender, pw, email, List of tickets ...
+2. Ticket - id, userid, price, source, destination, date, train name with Train class ...
+3. Train - id, number, time, 2D matrix of seats (boolean), class of seat types ... 
+
+
+HLD 
+
+Services
+
+User Booking Service - login, signup, fetch/cancel/book tickets 
+Train Service - search trains, get available seats
