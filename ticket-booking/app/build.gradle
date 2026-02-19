@@ -21,6 +21,9 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
+
+    //object mapper library used to convert java objects to json and vice versa
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.6'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
